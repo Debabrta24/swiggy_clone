@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router";
 const Header = () => {
   return (
     <header className="bg-[#FF5200] font-serif ">
@@ -23,9 +23,9 @@ const Header = () => {
         </div>
       </div>
       <div className="max-w-[80%] container mx-auto flex ">
-        <a href="">
+        <Link to="/Resturent">
           <img src="../src/public/FoodDelivery.png" alt="" />
-        </a>
+        </Link>
         <a href="">
           <img src="../src/public/instamart.png" alt="" />
         </a>
